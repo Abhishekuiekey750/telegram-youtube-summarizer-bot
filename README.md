@@ -132,59 +132,16 @@ telegram-youtube-bot/
 
 ---
 
-## Example screenshots
 
-Add your own screenshots to `docs/screenshots/` and reference them below so reviewers can see the bot in action.
-
-### 1. Start and help
-
-| Description | Screenshot |
-|-------------|------------|
-| `/start` welcome and `/help` commands | *(Add: `docs/screenshots/01-start-help.png`)* |
-
-![Start and help](docs/screenshots/01-start-help.png)
-
-### 2. Sending a YouTube link and summary
-
-| Description | Screenshot |
-|-------------|------------|
-| User sends a YouTube URL; bot shows progress then summary with key points and core insight | *(Add: `docs/screenshots/02-summary.png`)* |
-
-![Summary with key points and core insight](docs/screenshots/02-summary.png)
-
-### 3. Follow-up Q&A
-
-| Description | Screenshot |
-|-------------|------------|
-| User taps "Ask Question" and asks about the video; bot answers from the transcript | *(Add: `docs/screenshots/03-qa.png`)* |
-
-![Q&A after summary](docs/screenshots/03-qa.png)
-
-### 4. Language selection (optional)
-
-| Description | Screenshot |
-|-------------|------------|
-| `/language` menu and summary in another language (e.g. Hindi) | *(Add: `docs/screenshots/04-language.png`)* |
-
-![Language menu and translated summary](docs/screenshots/04-language.png)
-
-*To generate screenshots: run the bot, use Telegram, then save screenshots into `docs/screenshots/` with the filenames above (or update the paths in this README).*
 
 ---
 
 ## Demo video (3–5 minutes)
 
-A short demo video should cover:
+##A short demo video Link:
+##https://drive.google.com/file/d/1lnm8A1LxRTPFm4ycxXIzoeQ8sCj2xQPP/view?usp=sharing
 
-1. **Intro (30 s)** — What the bot does: paste a YouTube link → get a summary with key points and timestamps → ask questions.
-2. **Setup (optional, 30 s)** — Show `.env.example`, create `.env`, run `python -m cmd.bot.main`.
-3. **Flow (2–3 min)** — Send `/start`, paste a YouTube URL, show the summary (key points + core insight). Click "Ask Question", ask something (e.g. “What did he say about X?”), show the answer. Optionally show `/language` and a summary in another language.
-4. **Architecture (optional, 1 min)** — Show README “Architecture” and “Design trade-offs” or a one-slide diagram (Telegram → Dispatcher → Handlers → Services → LLM/Storage).
-
-Suggested tools: OBS, Loom, or your phone recording the Telegram app. Upload to YouTube (unlisted) or host and link in the README.
 
 ---
 
-## License
 
-MIT (or your chosen license).
